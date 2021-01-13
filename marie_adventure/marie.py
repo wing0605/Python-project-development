@@ -24,12 +24,16 @@ class MyMap():
 		self.x = x
 		self.y = y
 
-	def map_update(self):
+	def map_rolling(self):
 		# 根据地图背景图片的x坐标判断是否移出窗体，如果移除就给图片设置一个新的坐标点，否则按照每次5个像素向左移动
-		if self.x < -790:   # 小于-790说明地图已经完全移动完毕
-			self.x = 800    # 给地图一个新的坐标点
+		if self.x < -790:  # 小于-790说明地图已经完全移动完毕
+			self.x = 800  # 给地图一个新的坐标点
 		else:
-			self.x -= 5     # 向左移动5个像素
+			self.x -= 5  # 向左移动5个像素
+
+	# 更新地图
+	def map_update(self):
+		SCREEN.blit(self.bg, (self.x, self.y))
 
 def mainGame():
 	score = 0                   # 得分
