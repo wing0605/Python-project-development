@@ -15,7 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="玛丽冒险" />
+    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="玛丽冒险">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marie_adventure/marie.py" beforeDir="false" afterPath="$PROJECT_DIR$/marie_adventure/marie.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +46,41 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="marie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python项目开发实战入门" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/marie_adventure" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/marie_adventure/marie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.marie" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610542014623</updated>
       <workItem from="1610542016001" duration="1191000" />
-      <workItem from="1610543234737" duration="1658000" />
+      <workItem from="1610543234737" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -83,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610544830362</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="玛丽冒险">
+      <created>1610544981914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610544981914</updated>
+    </task>
+    <task id="LOCAL-00005" summary="玛丽冒险">
+      <created>1610545259843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610545259843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,11 +149,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new" />
     <MESSAGE value="玛丽冒险" />
     <option name="LAST_COMMIT_MESSAGE" value="玛丽冒险" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610546495089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="392" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610546495089" />
     <state x="728" y="265" key="FileChooserDialogImpl" timestamp="1610544007668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,14 +171,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1610547325495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1610547325495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1610547325495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1610547325495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
     <state x="596" y="157" key="SettingsEditor" timestamp="1610544190622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610544190622" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610542957974">
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610545266660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610542957974" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610545266660" />
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog" timestamp="1610543399937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -135,9 +203,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="869" y="387" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544029820" />
+    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1610545580139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610545580139" />
     <state x="912" y="317" key="svn.repositoryBrowser" timestamp="1610543828868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="912" y="317" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610543828868" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610547325487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
   </component>
 </project>
