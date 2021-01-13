@@ -15,6 +15,21 @@ SCREENWIDTH = 822               # 窗口宽度
 SCREENHEIGHT = 199              # 窗口高度
 FPS = 30                        # 更新画面的时间
 
+# 定义一个移动地图
+class MyMap():
+
+	def __init__(self, x, y):
+		# 加载背景图片
+		self.bg = pygame.image.load("image/bg.png").convert_alpha()
+		self.x = x
+		self.y = y
+
+	def map_update(self):
+		# 根据地图背景图片的x坐标判断是否移出窗体，如果移除就给图片设置一个新的坐标点，否则按照每次5个像素向左移动
+		if self.x < -790:   # 小于-790说明地图已经完全移动完毕
+			self.x = 800    # 给地图一个新的坐标点
+		else:
+			self.x -= 5     # 向左移动5个像素
 
 def mainGame():
 	score = 0                   # 得分
