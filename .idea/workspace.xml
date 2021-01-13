@@ -15,11 +15,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="new" />
+    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610542014623</updated>
       <workItem from="1610542016001" duration="1191000" />
-      <workItem from="1610543234737" duration="634000" />
+      <workItem from="1610543234737" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -57,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610542823144</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new">
+      <created>1610543885108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610543885108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,22 +92,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="728" y="265" key="FileChooserDialogImpl" timestamp="1610543454319">
+    <state x="728" y="265" key="FileChooserDialogImpl" timestamp="1610544007668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610543454319" />
-    <state x="759" y="429" key="Github.CreateGistDialog" timestamp="1610543593135">
+    <state x="728" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610544007668" />
+    <state x="759" y="429" key="Github.CreateGistDialog" timestamp="1610543919669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="759" y="429" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610543593135" />
-    <state x="779" y="408" key="Github.ShareDialog" timestamp="1610542569557">
+    <state x="759" y="429" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610543919669" />
+    <state x="779" y="408" key="Github.ShareDialog" timestamp="1610544562615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610542569557" />
-    <state x="449" y="155" key="SettingsEditor" timestamp="1610542344843">
+    <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
+    <state x="596" y="157" key="SettingsEditor" timestamp="1610544190622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="449" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610542344843" />
+    <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610544190622" />
     <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610542957974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -104,5 +116,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610543399937" />
+    <state x="869" y="387" key="git4idea.rebase.GitRebaseDialog" timestamp="1610544029820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="869" y="387" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544029820" />
+    <state x="912" y="317" key="svn.repositoryBrowser" timestamp="1610543828868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="912" y="317" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610543828868" />
   </component>
 </project>
