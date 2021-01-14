@@ -15,7 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="玛丽冒险">
+    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="地图类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marie_adventure/marie.py" beforeDir="false" afterPath="$PROJECT_DIR$/marie_adventure/marie.py" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="marie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -93,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610542014623</updated>
       <workItem from="1610542016001" duration="1191000" />
-      <workItem from="1610543234737" duration="4238000" />
+      <workItem from="1610543234737" duration="5210000" />
+      <workItem from="1610628692359" duration="4437000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -130,7 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610545259843</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="玛丽冒险">
+      <created>1610547726793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547726793</updated>
+    </task>
+    <task id="LOCAL-00007" summary="玛丽冒险">
+      <created>1610548231765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548231765</updated>
+    </task>
+    <task id="LOCAL-00008" summary="地图类">
+      <created>1610548430747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548430747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +174,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new" />
     <MESSAGE value="玛丽冒险" />
-    <option name="LAST_COMMIT_MESSAGE" value="玛丽冒险" />
+    <MESSAGE value="地图类" />
+    <option name="LAST_COMMIT_MESSAGE" value="地图类" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610546495089">
@@ -171,30 +195,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1610547325495">
+    <state width="1484" height="266" key="GridCell.Tab.0.bottom" timestamp="1610633138034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1610547325495">
+    <state width="1484" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
+    <state width="1484" height="266" key="GridCell.Tab.0.center" timestamp="1610633138034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1610547325495">
+    <state width="1484" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
+    <state width="1484" height="266" key="GridCell.Tab.0.left" timestamp="1610633138034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1610547325495">
+    <state width="1484" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
+    <state width="1484" height="266" key="GridCell.Tab.0.right" timestamp="1610633138034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610547325495" />
-    <state x="596" y="157" key="SettingsEditor" timestamp="1610544190622">
+    <state width="1484" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
+    <state x="596" y="157" key="SettingsEditor" timestamp="1610628777362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610544190622" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610545266660">
+    <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610628777362" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610548437341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610545266660" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610548437341" />
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog" timestamp="1610543399937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,16 +227,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="869" y="387" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544029820" />
-    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1610545580139">
+    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1610547946849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610545580139" />
+    <state x="601" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610547946849" />
     <state x="912" y="317" key="svn.repositoryBrowser" timestamp="1610543828868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="912" y="317" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610543828868" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610547325487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
+    <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610633663935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
   </component>
 </project>
