@@ -12,6 +12,7 @@ from pygame.locals import *  # 导入pygame中的常量
 from itertools import cycle  # 导入迭代工具
 
 import sys
+import random  # 随机数
 
 SCREENWIDTH = 822  # 窗口宽度
 SCREENHEIGHT = 199  # 窗口高度
@@ -37,6 +38,59 @@ class MyMap():
 	# 更新地图
 	def map_update(self):
 		SCREEN.blit(self.bg, (self.x, self.y))
+
+
+# 障碍类
+class Obstacle():
+	score = 1  # 分数
+	move = 5  # 移动距离
+	obstacle_y = 150  # 障碍物的y坐标
+
+	def __init__(self):
+		# 初始化障碍物矩形
+		self.rect = pygame.Rect(0, 0, 0, 0)
+		# 加载障碍物图片
+		self.missile = pygame.image.load('image/missile.png').convert_alpha()
+		self.pipe = pygame.image.load('image/pipe.png').convert_alpha()
+		# 加载分数
+		self.numbers = (
+			pygame.image.load('image/0.png').convert_alpha(),
+			pygame.image.load('image/1.png').convert_alpha(),
+			pygame.image.load('image/2.png').convert_alpha(),
+			pygame.image.load('image/3.png').convert_alpha(),
+			pygame.image.load('image/4.png').convert_alpha(),
+			pygame.image.load('image/5.png').convert_alpha(),
+			pygame.image.load('image/6.png').convert_alpha(),
+			pygame.image.load('image/7.png').convert_alpha(),
+			pygame.image.load('image/8.png').convert_alpha(),
+			pygame.image.load('image/9.png').convert_alpha(),
+		)
+		# 加载得分音效
+		self.score_audio = pygame.mixer.Sound('audio/score.wav')
+		# 0 和1 随机数
+		r = random.randint(0, 1)
+		if r == 0:  # 如果随机数为0显示导弹， 否则显示管道
+			self.image = self.missile  # 显示导弹
+			self.move = 15  # 移动速度加快
+			self.obstacle_y = 100  # 导弹坐标在天上
+		else:
+			self.image = self.pipe  # 显示管道
+		# 根据障碍物图的宽，高来设置矩形
+		self.rect.size = self.image.get_size()
+		# 获取位图的高宽
+		self.width, self.height = self.rect.size
+		# 障碍物绘制坐标
+		self.x = 800
+		self.y = self.obstacle_y
+		self.rect.center = (self.x, self.y)
+
+	# 障碍物移动
+	def obstacle_move(self):
+		self.rect.x -= self.move
+
+	# 绘制障碍物
+	def draw_obstacle(self):
+		SCREEN.blit(self.image, (self.rect.x, self.rect.y))
 
 
 # 玛丽类
@@ -103,6 +157,11 @@ def mainGame():
 	# 创建玛丽对象
 	marie = Marie()
 
+	# 添加障碍物的时间
+	addObstacleTimer = 0
+	# 障碍物对象列表
+	list = []
+
 	while True:
 		# 获取单击事件
 		for event in pygame.event.get():
@@ -129,6 +188,24 @@ def mainGame():
 			# 绘制玛丽
 			marie.draw_marie()
 
+			# 计算障碍物间隔时间
+			if addObstacleTimer >= 1300:
+				r = random.randint(0, 100)
+				if r > 40:
+					# 创建障碍物对象
+					obstacle = Obstacle()
+					# j将障碍物对象添加到列表中
+					list.append(obstacle)
+				# 重置添加障碍物时间
+				addObstacleTimer = 0
+
+			# 循环遍历障碍物
+			for i in range(len(list)):
+				# 障碍物移动
+				list[i].obstacle_move()
+				# 绘制障碍物
+				list[i].draw_obstacle()
+		addObstacleTimer += 20  # 增加障碍物时间
 		pygame.display.update()  # 更新整个窗体
 		FPSCLOCK.tick(FPS)  # 循环应该多长时间运行一次
 

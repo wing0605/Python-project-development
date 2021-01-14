@@ -15,7 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="地图类">
+    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="更新玛丽跳跃，移动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marie_adventure/marie.py" beforeDir="false" afterPath="$PROJECT_DIR$/marie_adventure/marie.py" afterDir="false" />
     </list>
@@ -36,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1n0zu0oxYUXntNDao4Oo8ZqMKdB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -94,7 +95,7 @@
       <updated>1610542014623</updated>
       <workItem from="1610542016001" duration="1191000" />
       <workItem from="1610543234737" duration="5210000" />
-      <workItem from="1610628692359" duration="4437000" />
+      <workItem from="1610628692359" duration="6128000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610548430747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新玛丽跳跃，移动">
+      <created>1610633729457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610633729457</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +183,8 @@
     <MESSAGE value="new" />
     <MESSAGE value="玛丽冒险" />
     <MESSAGE value="地图类" />
-    <option name="LAST_COMMIT_MESSAGE" value="地图类" />
+    <MESSAGE value="更新玛丽跳跃，移动" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新玛丽跳跃，移动" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -195,34 +204,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
-    <state width="1484" height="266" key="GridCell.Tab.0.bottom" timestamp="1610633138034">
+    <state width="1484" height="266" key="GridCell.Tab.0.bottom" timestamp="1610633663942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
-    <state width="1484" height="266" key="GridCell.Tab.0.center" timestamp="1610633138034">
+    <state width="1484" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610633663942" />
+    <state width="1484" height="266" key="GridCell.Tab.0.center" timestamp="1610633663942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
-    <state width="1484" height="266" key="GridCell.Tab.0.left" timestamp="1610633138034">
+    <state width="1484" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610633663942" />
+    <state width="1484" height="266" key="GridCell.Tab.0.left" timestamp="1610633663942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
-    <state width="1484" height="266" key="GridCell.Tab.0.right" timestamp="1610633138034">
+    <state width="1484" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610633663942" />
+    <state width="1484" height="266" key="GridCell.Tab.0.right" timestamp="1610633663942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610633138034" />
+    <state width="1484" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610633663942" />
     <state x="596" y="157" key="SettingsEditor" timestamp="1610628777362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610628777362" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610548437341">
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610633734535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610548437341" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610633734535" />
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog" timestamp="1610543399937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610543399937" />
+    <state x="819" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610633698161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="819" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610633698161" />
     <state x="869" y="387" key="git4idea.rebase.GitRebaseDialog" timestamp="1610544029820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,6 +250,6 @@
     <state x="912" y="317" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610543828868" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610633663935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
+    <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610635531150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
   </component>
 </project>
