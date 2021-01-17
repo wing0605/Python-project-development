@@ -92,6 +92,30 @@ class Obstacle():
 	def draw_obstacle(self):
 		SCREEN.blit(self.image, (self.rect.x, self.rect.y))
 
+	# 获取分数
+	def getScore(self):
+		tmp = self.score
+		if tmp == 1:
+			self.score_audio.play()  # 播放加分音效
+		self.score = 0
+		return tmp
+
+	# 显示分数
+	def showScore(self, score):
+		# 获取得分数字
+		self.scoreDigits = [int(x) for x in list(str(score))]  # 列表推导式
+		totalWidth = 0  # 要显示图片的总宽度
+		for digit in self.scoreDigits:
+			# 获取积分图片的宽度
+			totalWidth += self.numbers[digit].get_width()
+		# 分数横向位置
+		Xoffset = (SCREENWIDTH - (totalWidth + 30))
+		for digit in self.scoreDigits:
+			# 绘制分数
+			SCREEN.blit(self.numbers[digit], (Xoffset, SCREENHEIGHT * 0.1))
+			# 随着数字增加改变位置
+			Xoffset += self.numbers[digit].get_width()
+
 
 # 玛丽类
 class Marie():
@@ -141,6 +165,39 @@ class Marie():
 		            (self.x, self.rect.y))
 
 
+#  背景音乐
+class Music_Button():
+	is_open = True  # 背景音乐的标记开关
+
+	def __init__(self):
+		self.open_img = pygame.image.load('image/btn_open.png').convert_alpha()
+		self.close_img = pygame.image.load('image/btn_close.png').convert_alpha()
+		self.bg_music = pygame.mixer.Sound('audio/bg_music.wav')  # 加载背景音乐
+
+	# 判断鼠标是否在按钮的范围内
+	def is_select(self):
+		# 获取鼠标的坐标
+		point_x, point_y = pygame.mouse.get_pos()
+		w, h = self.open_img.get_size()  # 获取按钮图片的大小
+		# 判断鼠标是否在按钮范围内
+		in_x = point_x > 20 and point_x < 20 + w
+		in_y = point_y > 20 and point_y < 20 + h
+		return in_x and in_y
+
+
+# 游戏结束方法
+def game_over():
+	bump_audio = pygame.mixer.Sound('audio/bump.wav')  # 撞击
+	bump_audio.play()
+	# 获取窗体宽，高
+	screen_w = pygame.display.Info().current_w
+	screen_y = pygame.display.Info().current_h
+	# 加载游戏结束的图片
+	over_img = pygame.image.load('image/gameover.png').convert_alpha()
+	# 将游戏结束的图片绘制在窗体的中间位置
+	SCREEN.blit(over_img, ((screen_w - over_img.get_width()) / 2, (screen_y - over_img.get_height()) / 2))
+
+
 def mainGame():
 	score = 0  # 得分
 	over = False  # 游戏结束标记
@@ -162,9 +219,26 @@ def mainGame():
 	# 障碍物对象列表
 	list = []
 
+	# 创建背景音乐按钮对象
+	music_button = Music_Button()
+	btn_img = music_button.open_img  # 设置背景音乐按钮的默认图片
+	music_button.bg_music.play(-1)  # 循环播放背景音乐
+
 	while True:
 		# 获取单击事件
 		for event in pygame.event.get():
+
+			# 判断鼠标事件
+			if event.type == pygame.MOUSEBUTTONUP:  # 判断鼠标事件
+				if music_button.is_select():  # 判断鼠标是否在静音按钮范围内
+					if music_button.is_open:  # 判断背景音乐状态
+						btn_img = music_button.close_img  # 单击后显示关闭状态的图标
+						music_button.is_open = False  # 关闭背景音乐状态
+						music_button.bg_music.stop()  # 停止背景音乐的播放
+					else:
+						btn_img = music_button.open_img
+						music_button.is_open = True
+						music_button.bg_music.play(-1)
 			# 如果点击了关闭窗体就将窗体关闭
 			if event.type == QUIT:
 				pygame.quit()  # 退出窗口
@@ -174,6 +248,9 @@ def mainGame():
 				if marie.rect.y >= marie.lowest_y:  # 如果玛丽在地上
 					marie.jump_audio.play()  # 播放玛丽跳跃音效
 					marie.jump()  # 开启玛丽跳跃
+
+				if over == True:  # 判断游戏结束的开关是否开启
+					mainGame()  # 如果开启将调用mainGame方法重启启动游戏
 
 		if over == False:
 			# 绘制地图，起到更新地图的作用
@@ -205,7 +282,22 @@ def mainGame():
 				list[i].obstacle_move()
 				# 绘制障碍物
 				list[i].draw_obstacle()
+
+				# 判断玛丽与障碍物是否碰撞
+				if pygame.sprite.collide_rect(marie, list[i]):
+					over = True  # 碰撞后开启结束开关
+					game_over()  # 调用游戏结束方法
+					music_button.bg_music.stop()  # 听HI背景音乐
+				else:
+					# 判断玛丽是否越过障碍物
+					if (list[i].rect.x + list[i].rect.width) < marie.rect.x:
+						# 加分
+						score += list[i].getScore()
+				# 显示分数
+				list[i].showScore(score)
+
 		addObstacleTimer += 20  # 增加障碍物时间
+		SCREEN.blit(btn_img, (20, 20))  # 绘制背景音乐按钮
 		pygame.display.update()  # 更新整个窗体
 		FPSCLOCK.tick(FPS)  # 循环应该多长时间运行一次
 
