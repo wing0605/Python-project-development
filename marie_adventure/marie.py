@@ -201,7 +201,7 @@ def game_over():
 def mainGame():
 	score = 0  # 得分
 	over = False  # 游戏结束标记
-	global SCREEN, FPSCLOCK  # 将SCREEN, FPSCLOCK 两个变量全局化
+	global SCREEN, FPSCLOCK  # 定义两个全局变量窗体和时钟
 	pygame.init()  # 经过初始化以后我们就可以尽情的使用pygame了
 	# 使用Python时钟控制每个循环多长时间运行一次。在使用时钟前必须先创建Clock对象的一个实例
 	FPSCLOCK = pygame.time.Clock()

@@ -16,6 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="更新障碍物">
+      <change afterPath="$PROJECT_DIR$/data_analysis/JDData_month.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/data/JDcar.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/data/JDdata.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/data/result1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/data/result2.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marie_adventure/marie.py" beforeDir="false" afterPath="$PROJECT_DIR$/marie_adventure/marie.py" afterDir="false" />
     </list>
@@ -54,7 +59,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.JDData_month">
+    <configuration name="JDData_month" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python项目开发实战入门" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis/JDData_month.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="marie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python项目开发实战入门" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JDData_month" />
         <item itemvalue="Python.marie" />
       </list>
     </recent_temporary>
@@ -96,7 +124,8 @@
       <workItem from="1610542016001" duration="1191000" />
       <workItem from="1610543234737" duration="5210000" />
       <workItem from="1610628692359" duration="6441000" />
-      <workItem from="1610888742125" duration="3868000" />
+      <workItem from="1610888742125" duration="4058000" />
+      <workItem from="1610975555370" duration="4281000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -168,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610635572717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="over">
+      <created>1610892692892</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610892692892</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +229,8 @@
     <MESSAGE value="地图类" />
     <MESSAGE value="更新玛丽跳跃，移动" />
     <MESSAGE value="更新障碍物" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新障碍物" />
+    <MESSAGE value="over" />
+    <option name="LAST_COMMIT_MESSAGE" value="over" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -217,30 +254,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
-    <state width="1484" height="266" key="GridCell.Tab.0.bottom" timestamp="1610892453328">
+    <state width="1484" height="265" key="GridCell.Tab.0.bottom" timestamp="1610980221540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610892453328" />
-    <state width="1484" height="266" key="GridCell.Tab.0.center" timestamp="1610892453328">
+    <state width="1484" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221540" />
+    <state width="1484" height="265" key="GridCell.Tab.0.center" timestamp="1610980221539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610892453328" />
-    <state width="1484" height="266" key="GridCell.Tab.0.left" timestamp="1610892453328">
+    <state width="1484" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
+    <state width="1484" height="265" key="GridCell.Tab.0.left" timestamp="1610980221539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610892453328" />
-    <state width="1484" height="266" key="GridCell.Tab.0.right" timestamp="1610892453328">
+    <state width="1484" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
+    <state width="1484" height="265" key="GridCell.Tab.0.right" timestamp="1610980221539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610892453328" />
+    <state width="1484" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
     <state x="596" y="157" key="SettingsEditor" timestamp="1610628777362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610628777362" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610633734535">
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1610892726760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610633734535" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610892726760" />
     <state x="645" y="244" key="VcsDiffUtil.ChangesDialog" timestamp="1610543399937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,6 +300,7 @@
     <state x="912" y="317" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1610543828868" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$JDData_month.coverage" NAME="JDData_month Coverage Results" MODIFIED="1610980348979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
     <SUITE FILE_PATH="coverage/Python$marie.coverage" NAME="marie Coverage Results" MODIFIED="1610892453319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/marie_adventure" />
   </component>
 </project>
