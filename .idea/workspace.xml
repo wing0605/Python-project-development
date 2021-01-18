@@ -15,15 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="更新障碍物">
-      <change afterPath="$PROJECT_DIR$/data_analysis/JDData_month.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis/data/JDcar.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis/data/JDdata.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis/data/result1.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_analysis/data/result2.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marie_adventure/marie.py" beforeDir="false" afterPath="$PROJECT_DIR$/marie_adventure/marie.py" afterDir="false" />
-    </list>
+    <list default="true" id="1dd9b65f-0385-4bf0-93f2-0ef615a59429" name="默认更改列表" comment="销售收入分析与预测" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +117,7 @@
       <workItem from="1610543234737" duration="5210000" />
       <workItem from="1610628692359" duration="6441000" />
       <workItem from="1610888742125" duration="4058000" />
-      <workItem from="1610975555370" duration="4281000" />
+      <workItem from="1610975555370" duration="4707000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1610542823144</created>
@@ -204,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610892692892</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="销售收入分析与预测">
+      <created>1610980418738</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610980418738</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +229,8 @@
     <MESSAGE value="更新玛丽跳跃，移动" />
     <MESSAGE value="更新障碍物" />
     <MESSAGE value="over" />
-    <option name="LAST_COMMIT_MESSAGE" value="over" />
+    <MESSAGE value="销售收入分析与预测" />
+    <option name="LAST_COMMIT_MESSAGE" value="销售收入分析与预测" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -254,22 +254,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="408" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610544562615" />
-    <state width="1484" height="265" key="GridCell.Tab.0.bottom" timestamp="1610980221540">
+    <state width="1484" height="265" key="GridCell.Tab.0.bottom" timestamp="1610980430195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221540" />
-    <state width="1484" height="265" key="GridCell.Tab.0.center" timestamp="1610980221539">
+    <state width="1484" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610980430195" />
+    <state width="1484" height="265" key="GridCell.Tab.0.center" timestamp="1610980430195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
-    <state width="1484" height="265" key="GridCell.Tab.0.left" timestamp="1610980221539">
+    <state width="1484" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610980430195" />
+    <state width="1484" height="265" key="GridCell.Tab.0.left" timestamp="1610980430195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
-    <state width="1484" height="265" key="GridCell.Tab.0.right" timestamp="1610980221539">
+    <state width="1484" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610980430195" />
+    <state width="1484" height="265" key="GridCell.Tab.0.right" timestamp="1610980430195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1484" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610980221539" />
+    <state width="1484" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610980430195" />
     <state x="596" y="157" key="SettingsEditor" timestamp="1610628777362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
